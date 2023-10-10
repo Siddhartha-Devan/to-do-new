@@ -1,0 +1,110 @@
+.test{
+    color: brown;
+}
+
+h1{
+    margin-top: 1em;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.b-b{
+    background: linear-gradient(to right, rgb(22, 21, 83), #2d0635);
+    /* background-color: linear-gradient(120deg, rgb(94, 219, 32), rgb(44, 89, 201)); */
+}
+
+.outer-box{
+    display: flex;
+    border-style: solid;
+    border-color: white;
+    height: auto;
+   
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: px;
+}
+
+.task-containerr{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: white;
+    height: auto;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: px;
+}
+
+.text-box{
+    display: flex;
+    width: 1000%;
+    justify-content: space-between;
+}
+
+.text-area{
+    background-color: transparent;
+    color: white;
+
+    height: 3em;
+    width: 50%;
+    color: black;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 1em;
+}
+
+.buttons-div{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.post-button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(18, 237, 131);
+    margin: 20px 20px 20px 20px;
+}
+
+.reset-button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(18, 237, 131);
+    margin: 20px 100px 20px 20px;
+    /* margin-right: 3%; */
+}
+
+.task li{
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    /* text-align: left; */
+    flex: 9;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1em 1em 1em 1em;
+    border-color: white;
+    
+}
+
+.liBut{
+    flex: 1;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.li-dash li {
+    text-decoration: line-through;
+}
