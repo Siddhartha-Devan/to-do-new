@@ -6,6 +6,7 @@ const taskContainer = document.getElementById('task-container')
 
 console.log(postButton)
 
+
 function appender(){
     // let item = poster.value
     let task = document.createElement('div')
@@ -49,7 +50,6 @@ function appender(){
     })
     // console.log(task)
 }
-
 
 postButton.addEventListener('click', appender)
 

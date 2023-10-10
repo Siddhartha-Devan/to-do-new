@@ -66,14 +66,16 @@ h1{
     width: 100px;
     background-color: rgb(18, 237, 131);
     margin: 20px 20px 20px 20px;
+    display: inline-block;
 }
 
 .reset-button{
     height: 30px;
     width: 100px;
     background-color: rgb(18, 237, 131);
-    margin: 20px 100px 20px 20px;
+    margin: 20px 20px 20px 20px;
     /* margin-right: 3%; */
+    display: inline-block;
 }
 
 .task li{
