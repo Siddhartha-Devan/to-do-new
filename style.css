@@ -2,6 +2,12 @@
     color: brown;
 }
 
+li{
+    color: white;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 h1{
     margin-top: 1em;
     color: white;
@@ -23,6 +29,7 @@ h1{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: px;
+    border-radius: 10px;
 }
 
 .task-containerr{
@@ -35,12 +42,15 @@ h1{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .text-box{
     display: flex;
     width: 1000%;
     justify-content: space-between;
+    border-color: white;
 }
 
 .text-area{
@@ -49,10 +59,14 @@ h1{
 
     height: 3em;
     width: 50%;
-    color: black;
-    border-radius: 10px;
+    /* color: black; */
+    border-radius: 8px;
     margin-left: 2%;
     margin-top: 1em;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+
 }
 
 .buttons-div{
@@ -61,21 +75,74 @@ h1{
     
 }
 
-.post-button{
+.post-button {
     height: 30px;
     width: 100px;
-    background-color: rgb(18, 237, 131);
+    background-color: rgb(22, 21, 83);
     margin: 20px 20px 20px 20px;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
     display: inline-block;
+    /* border-radius: 10px; */
+    border-style: none;
+    border-radius: 4px;
+    position: relative;
+    font-weight: 600;
+}
+
+.post-button::before {
+    content: '';
+    height: 34px;
+    width: 104px;
+    background: linear-gradient(to right, red, purple);
+    z-index: -1;
+    border-style: none;
+    border-radius: 4px;
+    top: -2px;
+    left: -2px;
+
+    position: absolute;
+}
+
+.post-button:hover{
+    background-color: transparent;
+    transition-duration: 0.2s;
+
 }
 
 .reset-button{
     height: 30px;
     width: 100px;
-    background-color: rgb(18, 237, 131);
+    background-color: rgb(22, 21, 83);
     margin: 20px 20px 20px 20px;
-    /* margin-right: 3%; */
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
     display: inline-block;
+    /* border-radius: 10px; */
+    border-style: none;
+    border-radius: 4px;
+    position: relative;
+    font-weight: 600;
+}
+
+.reset-button::before{
+    position: absolute;
+    content: '';
+    height: 34px;
+    width: 104px;
+    background: linear-gradient(to right, red, purple);
+    border-style: none;
+    border-radius: 4px;
+    top: -2px;
+    left: -2px;
+    z-index: -1;   
+}
+
+.reset-button:hover{
+    background-color: transparent;
+    transition-duration: 0.2s;    
 }
 
 .task li{
@@ -104,7 +171,19 @@ h1{
     flex: 1;
     margin-right: 20px;
     cursor: pointer;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+    border-width: 3px;
+    border-style: solid;
+}
 
+.liBut:hover{
+    
 }
 
 .li-dash li {
